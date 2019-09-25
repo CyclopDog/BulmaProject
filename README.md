@@ -15,7 +15,7 @@ As a good practice, make each file just `export default` a single function.
 
 ## Webpack
 This project uses [Webpack](https://webpack.js.org/) to use modules.  
-After each change in the code, it is required to run `npm webpack` to apply changes to the distribution, optionally you can run `npm webpack --watch` or `npm run watch` (as specified in `./package.json`, because "watch" is a npm safe word, "run" must be included) so webpack keeps track automatically whenever the file is saved.  
+After each change in the code, it is required to run `npx webpack` to apply changes to the distribution, optionally you can run `npx webpack --watch` or `npm run watch` (as specified in `./package.json`, because "watch" is a npm safe word, "run" must be included) so webpack keeps track automatically whenever the file is saved.  
 
 ## Distribution
 Files to send for distribution can be found in `./dist` folder.
