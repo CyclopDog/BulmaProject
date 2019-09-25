@@ -19,3 +19,7 @@ After each change in the code, it is required to run `npx webpack` to apply chan
 
 ## Distribution
 Files to send for distribution can be found in `./dist` folder.
+
+## Git Ignore
+After installing all dependencies, a folder called `node_modules` is created, this can get quite large and is not good to have it added to git commits, therefore a `.gitignore` file containing this folder is added to the project.  
+If other people need to pull your work, all they got to do is `npm install` and all dependencies will be downloaded locally.
