@@ -14,7 +14,7 @@ Create all JS files as needed inside the `./src` directory, export the functions
 As a good practice, make each file just `export default` a single function.
 
 ## Webpack
-This project uses [Webpack](https://webpack.js.org/) to use modules.  
+This project uses [Webpack](https://webpack.js.org/) to bundle.  
 After each change in the code, it is required to run `npx webpack` to apply changes to the distribution, optionally you can run `npx webpack --watch` or `npm run watch` (as specified in `./package.json`, because "watch" is a npm safe word, "run" must be included) so webpack keeps track automatically whenever the file is saved.  
 
 ## Distribution
